@@ -4,6 +4,23 @@ body {
 font-family: Poppins;
 }
 
+h1  {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px
+}
+
+h2{
+    text-align: center;
+}
+
+h3  {
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #ED1C24;
+}
+
 header > div {
     padding: 0 25px;
     display: flex;
@@ -33,6 +50,10 @@ header > div {
       margin-right: 1em;
   }
 
+  .header2 {
+      padding: 10px 25px;
+  }
+
   .link {
       text-decoration: none;
       color: black;
@@ -43,11 +64,101 @@ header > div {
 
   .magnifying-glass {
       width: 15px;
+      position: relative;
+      left: 2%;
   }
 
-.search-bar input {
-    background-color: rgb(201, 220, 221);
-    width: 600px;
+.search-bar input { 
+    background-color: rgb(240, 240, 240);
+    color: rgba(3, 3, 3, 0.05);
+    width: 950px;
+    padding: 10px 0 10px 30px;
+    margin-right: 0;
+    border:none;
 }
 
-.search-bar button
+.search-bar button {
+    background-color: #fb3e44;
+    color: white;
+    margin-left: 0;
+    width: 60px;
+    height: 38px;
+    border:none;
+}
+
+#intro {
+    background-color: rgb(246, 242, 242);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+
+#intro article {
+    width: 35%;
+    text-align: center;
+    margin: 10px;
+}
+
+#intro div {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: stretch;
+}
+
+.see-plans {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(246, 59, 69);
+  width: 100px;
+  padding: 10px 15px;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+
+.join-for-free {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 13px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+.triangle-hexagon {
+    width: 200px;
+}
+
+#info article {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+}
+
+#packages {
+display: flex;
+justify-content: space-between;
+padding: 5% 3%;
+}
+
+#packages div {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 20%; 
+    margin: 20px;
+}

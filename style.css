@@ -75,43 +75,45 @@ header > div {
       margin: 8px;
   }
 
-  .magnifying-glass {
-    width: 15px;
-    padding-left: 10px;
-}
+    .magnifying-glass {
+        width: 15px;
+        padding-left: 10px;
+    }
 
-.search-bar input { 
-    background-color: rgb(240, 240, 240);
-    color: rgba(3, 3, 3, 0.05);
-    padding-left: 10px;
-    border: none;
-    width: 750px;
-}
+    .search-bar input { 
+        background-color: rgb(240, 240, 240);
+        color: rgba(3, 3, 3, 0.05);
+        padding-left: 10px;
+        border: none;
+        width: 750px;
+    }
 
-.search-bar button {
-    background-color: #fb3e44;
-    color: white;
-    margin-left: 0;
-    border:none;
-    height: 38px;
-    width: 70px;
-}
+    .search-bar button {
+        background-color: #fb3e44;
+        color: white;
+        margin-left: 0;
+        border:none;
+        height: 38px;
+        width: 70px;
+    }
 
 .log-in-container {
     display: flex;
     justify-content: space-between;
     width: 150px;
     margin-right: 20px;
+    text-align: center;
 }
 
 .log-in-container a {
     text-decoration: none;
     color: black;
-    border-color: grey;
+    border-style: 0.5px solid grey;
+    text-align: center;
 }
 
 .join-link {
-    border-color: grey;
+    border-style: 0.5px solid grey;
 }
 
 #intro {
@@ -192,17 +194,17 @@ padding: 5% 3%;
 }
 
 .create-org {
-    display: flex;
     width: 250px;
     height: 40px;
     background-color: black;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     margin: 0 auto;
+    text-align: center;
 }
 
 .create-org a {
     text-decoration: none;
     color: white;
     text-align: center;
-    flex: 1 0;
+    line-height: 40px;
 }

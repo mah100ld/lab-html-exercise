@@ -3,26 +3,25 @@
 body {
 font-family: Poppins;
 }
+    h1  {
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 10px
+    }
 
-h1  {
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    margin: 10px
-}
+    h2{
+        text-align: center;
+        background-color: rgba(255,204,53,.4);
+        width: fit-content;
+        margin: 30px auto;
+    }
 
-h2{
-    text-align: center;
-    background-color: rgba(255,204,53,.4);
-    width: fit-content;
-    margin: 30px auto;
-}
-
-h3  {
-    font-family: "Poppins";
-    font-size: 16px;
-    color: #ED1C24;
-}
+    h3  {
+        font-family: "Poppins";
+        font-size: 16px;
+        color: #ED1C24;
+    }
 
 header > div {
     padding: 10 25px;
@@ -32,22 +31,22 @@ header > div {
     border-bottom: 1px solid lightgray;
   }
 
-  nav {
-    width: 600px;
-  }
-  
-  nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-right: 20px;
-  }
+    nav {
+        width: 600px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
 
-  nav a {
-      text-decoration: none;
-      color: black;
-  }
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
 
   .blackheart {
       width: 20px;
@@ -75,27 +74,27 @@ header > div {
       margin: 8px;
   }
 
-    .magnifying-glass {
-        width: 15px;
-        padding-left: 10px;
-    }
+        .magnifying-glass {
+            width: 15px;
+            padding-left: 10px;
+        }
 
-    .search-bar input { 
-        background-color: rgb(240, 240, 240);
-        color: rgba(3, 3, 3, 0.05);
-        padding-left: 10px;
-        border: none;
-        width: 750px;
-    }
+        .search-bar input { 
+            background-color: rgb(240, 240, 240);
+            color: rgba(3, 3, 3, 0.05);
+            padding-left: 10px;
+            border: none;
+            width: 750px;
+        }
 
-    .search-bar button {
-        background-color: #fb3e44;
-        color: white;
-        margin-left: 0;
-        border:none;
-        height: 38px;
-        width: 70px;
-    }
+        .search-bar button {
+            background-color: #fb3e44;
+            color: white;
+            margin-left: 0;
+            border:none;
+            height: 38px;
+            width: 70px;
+        }
 
 .log-in-container {
     display: flex;
@@ -105,12 +104,12 @@ header > div {
     text-align: center;
 }
 
-.log-in-container a {
-    text-decoration: none;
-    color: black;
-    border-style: 0.5px solid grey;
-    text-align: center;
-}
+    .log-in-container a {
+        text-decoration: none;
+        color: black;
+        border-style: 0.5px solid grey;
+        text-align: center;
+    }
 
 .join-link {
     border-style: 0.5px solid grey;
@@ -125,18 +124,18 @@ header > div {
     padding: 5% 0;
 }
 
-#intro article {
-    width: 35%;
-    text-align: center;
-    margin: 10px;
-}
+    #intro article {
+        width: 35%;
+        text-align: center;
+        margin: 10px;
+    }
 
-#intro div {
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-    column-gap: 30px;
+    #intro div {
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        column-gap: 30px;
 }
 
 .see-plans {
@@ -165,14 +164,14 @@ header > div {
     justify-content: space-evenly;
     padding: 5% 0;
 }
-.triangle-hexagon {
-    width: 200px;
-}
+    .triangle-hexagon {
+        width: 200px;
+    }
 
-#info article {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+    #info article {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
 }
 
 .icon {
@@ -185,12 +184,12 @@ justify-content: space-between;
 padding: 5% 3%;
 }
 
-#packages div {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    width: 20%; 
-    margin: 20px;
+    #packages div {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 20%; 
+        margin: 20px;
 }
 
 .create-org {
@@ -202,9 +201,9 @@ padding: 5% 3%;
     text-align: center;
 }
 
-.create-org a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-}
+    .create-org a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+    }
